@@ -160,10 +160,16 @@ img {
   margin-bottom: 48px;
   text-align: center;
 }
-
 .first-section {
   padding: 188px 0;
   background: #2e2f42;
+
+  background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  
+    url(../images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .button-order-service {
@@ -183,6 +189,7 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   margin: 0 auto;
+  transition: color 1000ms linear, background-color 300ms linear;
 }
 
 .button-order-service:hover {
@@ -199,10 +206,29 @@ img {
   background-color: #404bbf;
 }
 
+
 /*  hero */
 
-/*advantage*/
+/*advantage-преймущества */
 
+
+.advantages-item-border {
+  
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+border-radius: 4px;
+margin-bottom: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.advanteges-item-icon { fill: red;
+
+}
 .advantages {
   padding: 120px 0;
 }
